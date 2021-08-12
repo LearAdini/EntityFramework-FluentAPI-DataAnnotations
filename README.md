@@ -5,7 +5,7 @@ Here I document my Two CRUD projects that I made as a class project. At first I 
 # DataAnnotations
 **● DBContext Class**
 
-The Data-Base Context class is connecting to SQL via the OnConfiguring method which contains a DbContextOptionsBuilder object where I can connect into the Data-Base
+The Data-Base Context class is connecting to SQL via the OnConfiguring method which contains a DbContextOptionsBuilder object where I can connect into the Data-Base                        
  objectName.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=Data-Base;Trusted_Connection=True;MultipleActiveResultSets=True;");
  
 ![DataAnnotationContext](https://user-images.githubusercontent.com/80118008/129166374-86b680d9-21c0-491a-800e-a99f6d466dae.PNG)
@@ -22,7 +22,7 @@ After giving each column its type I open up NuGet PMC and add-migration,update-d
 **● Fluent Class's**
 
 After using Data Annotations I created two new class's both with the same columns and values as in Posts and Comments class's only now I remove all [annotations].        
-Now I can create a new Class called FluentPostConfig which will inherit from IEntityTypeConfiguration interface using .Metadata.Builders
+The new Class called FluentPostConfig will inherit from IEntityTypeConfiguration interface using .Metadata.Builders
 And now I use the Configure method which contains a generic EntityTypeBuilder object and now I can start using the Fluent code,for example like before I want Post_Id to be my PK so I can write now objectName.HasKey(p => p.Post_Id);
 
 ![fluentAPI](https://user-images.githubusercontent.com/80118008/129149864-727efbbc-db4d-49f5-8dde-4750aec7f814.PNG)
