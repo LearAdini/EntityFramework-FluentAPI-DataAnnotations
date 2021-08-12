@@ -8,7 +8,8 @@ Here I document my Two CRUD projects that I made as a class project. At first I 
 The Data-Base Context class is connecting to SQL via the OnConfiguring method which contains a DbContextOptionsBuilder object where I can connect into the Data-Base
  objectName.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=Data-Base;Trusted_Connection=True;MultipleActiveResultSets=True;");
  
-![DataAnnotationContext](https://user-images.githubusercontent.com/80118008/129154550-5c5d6482-fd82-46fb-87a9-9a07f58d185c.PNG)
+![DataAnnotationContext](https://user-images.githubusercontent.com/80118008/129166107-92fa30e4-24ee-4c0e-a3ab-e004ea821f0c.PNG)
+
 
 **● The Class's**
 
@@ -31,7 +32,7 @@ And now I use the Configure method which contains a generic EntityTypeBuilder ob
 
 The Data-Base Context class uses the same DataBase Set properties only now I wont be using the OnConfiguring method I will use the OnModelCreating method which contains a ModelBuilder object which will apply configurations to the Data-Base so in the code I am using the FluentConfig class's that I made before because I want to stay as orginaized as I can.
 
-![fluentAPIContext](https://user-images.githubusercontent.com/80118008/129154580-f79d5831-a01c-4f4b-93d2-e5483fb211b4.PNG)
+![fluentAPIContext](https://user-images.githubusercontent.com/80118008/129166134-1083712f-db4c-41f1-a3d4-8127f9acb470.PNG)
 
 
 
