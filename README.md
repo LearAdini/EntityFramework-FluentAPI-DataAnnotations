@@ -18,7 +18,7 @@ After giving each column its type I open up NuGet PMC and add-migration,update-d
 ![DataAnnotation](https://user-images.githubusercontent.com/80118008/129145704-fb56d844-1d56-463a-a9d7-128f35469433.PNG)
 -----------------------------------------------------------------------------------------
 
-******FluentAPI******
+# FluentAPI #
 **● Fluent Class's**
 
 After using Data Annotations I created two new class's both with the same columns and values as in Posts and Comments class's only now I remove all [annotations].        
