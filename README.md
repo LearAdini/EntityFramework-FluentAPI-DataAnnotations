@@ -36,6 +36,23 @@ The Data-Base Context class uses the same DataBase Set properties only now I won
 
 --------------------------------------------------------------
 
+# Second Project - WinForms CRUD (no delete option yet)
+
+![1](https://user-images.githubusercontent.com/80118008/129153752-3e59b468-a0c9-4ccd-a351-787cfe1e0e66.PNG)
+--------------------------------------------------------------
+![2](https://user-images.githubusercontent.com/80118008/129148304-f2c17c5e-a789-478b-bbd2-60aca4fba971.PNG)
+--------------------------------------------------------------
+![3](https://user-images.githubusercontent.com/80118008/129148305-204b519b-6a49-4dff-b220-4fa08cece738.PNG)
+--------------------------------------------------------------
+![4](https://user-images.githubusercontent.com/80118008/129148306-784d2062-4cef-495d-93de-8891e2933527.PNG)
+--------------------------------------------------------------
+![5](https://user-images.githubusercontent.com/80118008/129148307-f31ccf3d-7066-46a8-a71f-7fd6b2968b59.png)
+--------------------------------------------------------------
+![6](https://user-images.githubusercontent.com/80118008/129148308-558c19a7-ef86-44cb-8cf4-2a9bddc7f7ba.png)
+--------------------------------------------------------------
+![7](https://user-images.githubusercontent.com/80118008/129148309-cb890d0f-0ddc-476f-96d4-77f3b362ce15.png)
+
+
 # First Project - Console CRUD
 
 ![0](https://user-images.githubusercontent.com/80118008/129153047-22fb2746-8314-462c-9b62-074893aa3f3e.PNG)
@@ -65,20 +82,3 @@ The Data-Base Context class uses the same DataBase Set properties only now I won
 ![21](https://user-images.githubusercontent.com/80118008/129153067-4bc0d63e-5079-406b-9e27-44964420cf5a.PNG)
 -----------------------------------------------------------------------------------------
 ![22](https://user-images.githubusercontent.com/80118008/129153068-e6f05090-017c-4b2d-a260-2cea350a19ea.PNG)
-
-
-# Second Project - WinForms CRUD (no delete option yet)
-
-![1](https://user-images.githubusercontent.com/80118008/129148300-8ff56f26-d417-47ab-b41b-932a0e24ed65.PNG)
---------------------------------------------------------------
-![2](https://user-images.githubusercontent.com/80118008/129148304-f2c17c5e-a789-478b-bbd2-60aca4fba971.PNG)
---------------------------------------------------------------
-![3](https://user-images.githubusercontent.com/80118008/129148305-204b519b-6a49-4dff-b220-4fa08cece738.PNG)
---------------------------------------------------------------
-![4](https://user-images.githubusercontent.com/80118008/129148306-784d2062-4cef-495d-93de-8891e2933527.PNG)
---------------------------------------------------------------
-![5](https://user-images.githubusercontent.com/80118008/129148307-f31ccf3d-7066-46a8-a71f-7fd6b2968b59.png)
---------------------------------------------------------------
-![6](https://user-images.githubusercontent.com/80118008/129148308-558c19a7-ef86-44cb-8cf4-2a9bddc7f7ba.png)
---------------------------------------------------------------
-![7](https://user-images.githubusercontent.com/80118008/129148309-cb890d0f-0ddc-476f-96d4-77f3b362ce15.png)
