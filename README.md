@@ -1,6 +1,6 @@
 # EntityFramework - FluentAPI and DataAnnotations
 
-Two CRUD projects that I made as a class project.At first I started learning the fundemental logic of .NET Core and moved onto the first project.I started writing the code by the right EF work flows, first the Console output project which where you can Create a post,Create a comment,Create a user(Menu 8),Edit and Delete.
+Here I document my Two CRUD projects that I made as a class project. At first I learned the fundemental logic of .NET Core and moved onto the first project.I started writing the code by the right EF work flows, first the Console output project which where you can Create a post,Create a comment,Create a user(Menu 8),View,Edit and Delete.and the second project can Create,View and edit columns as a WinForm GUI.
 
 # DataAnnotations
 **● DBContext Class**
@@ -12,7 +12,7 @@ The Data-Base Context class is connecting to SQL via the OnConfiguring method wh
 
 **● The Class's**
 
-The Posts Class is now being writing and I am using here* DataAnnotations method so for example Post_Id will be the PrimaryKey in the Table so I will use [Key] one line above.
+The Posts Class is now being written and I am using here* DataAnnotations method so for example Post_Id will be the PrimaryKey in the Table so I will use [Key] one line above.
 After giving each column its type I open up NuGet PMC and add-migration,update-database.
 
 ![DataAnnotation](https://user-images.githubusercontent.com/80118008/129145704-fb56d844-1d56-463a-a9d7-128f35469433.PNG)
