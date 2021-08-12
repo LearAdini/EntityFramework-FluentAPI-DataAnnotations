@@ -18,6 +18,8 @@ After giving each column its type I open up NuGet PMC and add-migration,update-d
 ![DataAnnotation](https://user-images.githubusercontent.com/80118008/129145704-fb56d844-1d56-463a-a9d7-128f35469433.PNG)
 
 
+
+
 # FluentAPI
 **● Fluent Class's**
 
