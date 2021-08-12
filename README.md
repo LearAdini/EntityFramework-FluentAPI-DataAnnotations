@@ -18,7 +18,7 @@ After giving each column its type I open up NuGet PMC and add-migration,update-d
 ![DataAnnotation](https://user-images.githubusercontent.com/80118008/129145704-fb56d844-1d56-463a-a9d7-128f35469433.PNG)
 
 --------------------------------------------------------------
-#FluentAPI
+# FluentAPI
 **.Fluent Class's**
 
 After using Data Annotations I created two new class's both with the same columns and values as in Posts and Comments class's only now I remove all [annotations].
@@ -38,35 +38,36 @@ The Data-Base Context class uses the same DataBase Set properties only now I won
 
 # First Project - Console CRUD
 
-![0](https://user-images.githubusercontent.com/80118008/129146013-41210369-a0ae-4afa-ab35-e5b466d214be.PNG)
---------------------------------------------------------------
-![2](https://user-images.githubusercontent.com/80118008/129146015-c0b7c3fb-b6fd-4f3e-bd1d-4e8c94bd644a.PNG)
---------------------------------------------------------------
-![3](https://user-images.githubusercontent.com/80118008/129146017-904ba63d-9e1a-40a0-a36e-b9b6d244bd50.PNG)
---------------------------------------------------------------
-![6](https://user-images.githubusercontent.com/80118008/129146020-a3bbbc12-676d-44ae-a1ef-9f709fdcb7cd.PNG)
---------------------------------------------------------------
-![8](https://user-images.githubusercontent.com/80118008/129146022-41a30358-8cd2-48ae-9082-2df6c6262f58.PNG)
---------------------------------------------------------------
-![9](https://user-images.githubusercontent.com/80118008/129146023-4595f323-0193-4a3b-bfbc-2f7abfb96e39.PNG)
---------------------------------------------------------------
-![10](https://user-images.githubusercontent.com/80118008/129146024-63262677-1cf4-4045-918f-b2be2ab4bf8f.PNG)
---------------------------------------------------------------
-![12](https://user-images.githubusercontent.com/80118008/129146026-98c8b919-6d6f-47f6-a9e2-7d5cbb8299b0.PNG)
---------------------------------------------------------------
-![13](https://user-images.githubusercontent.com/80118008/129146027-dd757380-a60b-4279-b385-e2aab14fee3d.PNG)
---------------------------------------------------------------
-![16](https://user-images.githubusercontent.com/80118008/129146029-ca04e38c-3810-43bb-b78f-ab98b9c9ad6c.PNG)
---------------------------------------------------------------
-![18](https://user-images.githubusercontent.com/80118008/129146030-6c8fc6bf-5240-4f50-93b0-015eaf9e6ff5.PNG)
---------------------------------------------------------------
-![20](https://user-images.githubusercontent.com/80118008/129146032-cb3008ff-e395-48e0-8c9d-9e453d65e833.PNG)
---------------------------------------------------------------
-![21](https://user-images.githubusercontent.com/80118008/129146033-6f7fb86e-bbac-4dbf-8361-5ceed311c92c.PNG)
---------------------------------------------------------------
-![22](https://user-images.githubusercontent.com/80118008/129146036-c97dac7a-ac7f-4ff3-9784-16dbb4b21c40.PNG)
+![0](https://user-images.githubusercontent.com/80118008/129153047-22fb2746-8314-462c-9b62-074893aa3f3e.PNG)
+-----------------------------------------------------------------------------------------
+![2](https://user-images.githubusercontent.com/80118008/129153049-e288d559-6d50-4cbc-ba5d-0c0c9137cebb.PNG)
+-----------------------------------------------------------------------------------------
+![3](https://user-images.githubusercontent.com/80118008/129153051-a4e714df-776d-4092-b603-95d15e7093d2.PNG)
+-----------------------------------------------------------------------------------------
+![6](https://user-images.githubusercontent.com/80118008/129153052-2b52ffb8-d898-4f72-ac59-358c0e3274d5.PNG)
+-----------------------------------------------------------------------------------------
+![8](https://user-images.githubusercontent.com/80118008/129153055-11791e8d-e40b-425c-8219-7a8f338ac847.PNG)
+-----------------------------------------------------------------------------------------
+![9](https://user-images.githubusercontent.com/80118008/129153056-0965d5dd-4251-4746-8f2e-f79ec02959fd.PNG)
+-----------------------------------------------------------------------------------------
+![10](https://user-images.githubusercontent.com/80118008/129153058-1117a2a4-2ef9-4bbc-abf6-84dc4467614c.PNG)
+-----------------------------------------------------------------------------------------
+![12](https://user-images.githubusercontent.com/80118008/129153060-d115601f-213d-4abe-9246-6ee96e1181f6.PNG)
+-----------------------------------------------------------------------------------------
+![13](https://user-images.githubusercontent.com/80118008/129153061-9605a58c-726f-4dcc-80d1-57e7836ac757.PNG)
+-----------------------------------------------------------------------------------------
+![16](https://user-images.githubusercontent.com/80118008/129153062-b58735f3-8e73-40ef-9615-e0cd808ae020.PNG)
+-----------------------------------------------------------------------------------------
+![18](https://user-images.githubusercontent.com/80118008/129153063-5ecbf1ca-ad12-48de-bf5e-adaca0eafac4.PNG)
+-----------------------------------------------------------------------------------------
+![20](https://user-images.githubusercontent.com/80118008/129153064-9a8439a7-8854-4417-80af-bfe36f5d64a4.PNG)
+-----------------------------------------------------------------------------------------
+![21](https://user-images.githubusercontent.com/80118008/129153067-4bc0d63e-5079-406b-9e27-44964420cf5a.PNG)
+-----------------------------------------------------------------------------------------
+![22](https://user-images.githubusercontent.com/80118008/129153068-e6f05090-017c-4b2d-a260-2cea350a19ea.PNG)
 
-# Second Project - WinForms CRUD (no delete option)
+
+# Second Project - WinForms CRUD (no delete option yet)
 
 ![1](https://user-images.githubusercontent.com/80118008/129148300-8ff56f26-d417-47ab-b41b-932a0e24ed65.PNG)
 --------------------------------------------------------------
