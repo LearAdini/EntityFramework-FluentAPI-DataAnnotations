@@ -21,12 +21,12 @@ After giving each column its type I open up NuGet PMC and add-migration,update-d
 # FluentAPI
 **● Fluent Class's**
 
-After using Data Annotations I created two new class's both with the same columns and values as in Posts and Comments class's only now I remove all [annotations].
+After using Data Annotations I created two new class's both with the same columns and values as in Posts and Comments class's only now I remove all [annotations].        
 Now I can create a new Class called FluentPostConfig which will inherit from IEntityTypeConfiguration interface using .Metadata.Builders
 And now I use the Configure method which contains a generic EntityTypeBuilder object and now I can start using the Fluent code,for example like before I want Post_Id to be my PK so I can write now objectName.HasKey(p => p.Post_Id);
 
 ![fluentAPI](https://user-images.githubusercontent.com/80118008/129149864-727efbbc-db4d-49f5-8dde-4750aec7f814.PNG)
-* the lambada expression will indicate that Post_Id column is the PrimaryKey of the table.
+*the lambada expression will indicate that the Post_Id column is the PrimaryKey of the table.*
 
 **● DBContext Class**
 
