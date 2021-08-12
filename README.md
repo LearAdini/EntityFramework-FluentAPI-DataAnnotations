@@ -38,20 +38,19 @@ The Data-Base Context class uses the same DataBase Set properties only now I won
 
 # Second Project - WinForms CRUD (no delete option yet)
 
-![1](https://user-images.githubusercontent.com/80118008/129153752-3e59b468-a0c9-4ccd-a351-787cfe1e0e66.PNG)
---------------------------------------------------------------
-![2](https://user-images.githubusercontent.com/80118008/129148304-f2c17c5e-a789-478b-bbd2-60aca4fba971.PNG)
---------------------------------------------------------------
-![3](https://user-images.githubusercontent.com/80118008/129148305-204b519b-6a49-4dff-b220-4fa08cece738.PNG)
---------------------------------------------------------------
-![4](https://user-images.githubusercontent.com/80118008/129148306-784d2062-4cef-495d-93de-8891e2933527.PNG)
---------------------------------------------------------------
-![5](https://user-images.githubusercontent.com/80118008/129148307-f31ccf3d-7066-46a8-a71f-7fd6b2968b59.png)
---------------------------------------------------------------
-![6](https://user-images.githubusercontent.com/80118008/129148308-558c19a7-ef86-44cb-8cf4-2a9bddc7f7ba.png)
---------------------------------------------------------------
-![7](https://user-images.githubusercontent.com/80118008/129148309-cb890d0f-0ddc-476f-96d4-77f3b362ce15.png)
-
+![1](https://user-images.githubusercontent.com/80118008/129155592-6a67e2d9-8ff4-4652-bac0-2619f473ee00.PNG)
+-----------------------------------------------------------------------------------------
+![2](https://user-images.githubusercontent.com/80118008/129155598-c8baad55-53cf-496f-8bf4-ff1a06eb16c1.PNG)
+-----------------------------------------------------------------------------------------
+![3](https://user-images.githubusercontent.com/80118008/129155600-eb0956f2-1d45-49c4-bdc1-4b6ff3396f0b.PNG)
+-----------------------------------------------------------------------------------------
+![4](https://user-images.githubusercontent.com/80118008/129155602-7080e842-a995-4ee4-8def-2ff7178cc066.PNG)
+-----------------------------------------------------------------------------------------
+![5](https://user-images.githubusercontent.com/80118008/129155604-bdfdcb3f-644f-479c-ac1a-2fb29800440b.png)
+-----------------------------------------------------------------------------------------
+![6](https://user-images.githubusercontent.com/80118008/129155605-c9935e72-5ac2-4ccb-9c3b-3f211da630f2.png)
+-----------------------------------------------------------------------------------------
+![7](https://user-images.githubusercontent.com/80118008/129155606-2161873e-62b6-4c24-98c1-c030491e46fb.png)
 
 # First Project - Console CRUD
 
