@@ -14,6 +14,7 @@ The Data-Base Context class is connecting to SQL via the OnConfiguring method wh
 The Posts Class is now being writing and I am using here* DataAnnotations method so for example Post_Id will be the PrimaryKey in the Table so I will use [Key] one line above.
 After giving each column its type I open up NuGet PMC and add-migration,update-database.
 ![DataAnnotation](https://user-images.githubusercontent.com/80118008/129145704-fb56d844-1d56-463a-a9d7-128f35469433.PNG)
+
 --------------------------------------------------------------
 # FluentAPI
 # .Fluent Class's
@@ -28,6 +29,7 @@ And now I use the Configure method which contains a generic EntityTypeBuilder ob
 
 The Data-Base Context class uses the same DataBase Set properties only now I wont be using the OnConfiguring method I will use the OnModelCreating method which contains a ModelBuilder object which will apply configurations to the Data-Base so in the code I am using the FluentConfig class's that I made before because I want to stay as orginaized as I can.
 ![fluentAPIContext](https://user-images.githubusercontent.com/80118008/129150720-41aaeedc-719d-4fb8-9f1e-e1bd9215be26.PNG)
+
 --------------------------------------------------------------
 
 #1 First Project - Console CRUD
