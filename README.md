@@ -3,12 +3,12 @@
 Two CRUD projects that I made as a class project.At first I started learning the fundemental logic of .NET Core and moved onto the first project.I started writing the code by the right EF work flows, first the Console output project which where you can Create a post,Create a comment,Create a user(Menu 8),Edit and Delete.
 
 # DataAnnotations
-**.DBContext Class**
+****.DBContext Class****
 
 The Data-Base Context class is connecting to SQL via the OnConfiguring method which contains a DbContextOptionsBuilder object where I can connect into the Data-Base
  objectName.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=Data-Base;Trusted_Connection=True;MultipleActiveResultSets=True;");
  
- ![DataAnnotationContext](https://user-images.githubusercontent.com/80118008/129145644-5800eeb2-d8aa-4334-9cc1-bd0c9fb9dd5b.PNG)
+![DataAnnotationContext](https://user-images.githubusercontent.com/80118008/129154550-5c5d6482-fd82-46fb-87a9-9a07f58d185c.PNG)
 
 **.The Class's**
 
@@ -32,7 +32,7 @@ And now I use the Configure method which contains a generic EntityTypeBuilder ob
 
 The Data-Base Context class uses the same DataBase Set properties only now I wont be using the OnConfiguring method I will use the OnModelCreating method which contains a ModelBuilder object which will apply configurations to the Data-Base so in the code I am using the FluentConfig class's that I made before because I want to stay as orginaized as I can.
 
-![fluentAPIContext](https://user-images.githubusercontent.com/80118008/129150720-41aaeedc-719d-4fb8-9f1e-e1bd9215be26.PNG)
+![fluentAPIContext](https://user-images.githubusercontent.com/80118008/129154580-f79d5831-a01c-4f4b-93d2-e5483fb211b4.PNG)
 
 --------------------------------------------------------------
 
