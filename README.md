@@ -2,7 +2,7 @@
 
 Two CRUD projects that I made as a class project.At first I started learning the fundemental logic of .NET Core and moved onto the first project.I started writing the code by the right EF work flows, first the Console output project which where you can Create a post,Create a comment,Create a user(Menu 8),Edit and Delete.
 
-# DataAnnotations
+## DataAnnotations
 # .DBContext Class
 
 The Data-Base Context class is connecting to SQL via the OnConfiguring method which contains a DbContextOptionsBuilder object where I can connect into the Data-Base
@@ -16,7 +16,7 @@ After giving each column its type I open up NuGet PMC and add-migration,update-d
 ![DataAnnotation](https://user-images.githubusercontent.com/80118008/129145704-fb56d844-1d56-463a-a9d7-128f35469433.PNG)
 
 --------------------------------------------------------------
-# FluentAPI
+## FluentAPI
 # .Fluent Class's
 
 After using Data Annotations I created two new class's both with the same columns and values as in Posts and Comments class's only now I remove all [annotations].
@@ -32,7 +32,7 @@ The Data-Base Context class uses the same DataBase Set properties only now I won
 
 --------------------------------------------------------------
 
-#1 First Project - Console CRUD
+# First Project - Console CRUD
 
 ![0](https://user-images.githubusercontent.com/80118008/129146013-41210369-a0ae-4afa-ab35-e5b466d214be.PNG)
 --------------------------------------------------------------
@@ -62,7 +62,7 @@ The Data-Base Context class uses the same DataBase Set properties only now I won
 --------------------------------------------------------------
 ![22](https://user-images.githubusercontent.com/80118008/129146036-c97dac7a-ac7f-4ff3-9784-16dbb4b21c40.PNG)
 
-# 2 Second Project - WinForms CRUD (no delete option)
+# Second Project - WinForms CRUD (no delete option)
 
 ![1](https://user-images.githubusercontent.com/80118008/129148300-8ff56f26-d417-47ab-b41b-932a0e24ed65.PNG)
 --------------------------------------------------------------
