@@ -32,8 +32,7 @@ And now I use the Configure method which contains a generic EntityTypeBuilder ob
 
 The Data-Base Context class uses the same DataBase Set properties only now I wont be using the OnConfiguring method I will use the OnModelCreating method which contains a ModelBuilder object which will apply configurations to the Data-Base so in the code I am using the FluentConfig class's that I made before because I want to stay as orginaized as I can.
 
-![fluentAPIContext](https://user-images.githubusercontent.com/80118008/129166134-1083712f-db4c-41f1-a3d4-8127f9acb470.PNG)
-
+![FAPICONTEXT](https://user-images.githubusercontent.com/80118008/129166862-0bccc0bb-502c-44c8-a048-20bca182b013.PNG)
 
 
 # Second Project - WinForms CRUD (no delete option yet)
