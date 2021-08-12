@@ -2,7 +2,7 @@
 
 Two CRUD projects that I made as a class project.At first I started learning the fundemental logic of .NET Core and moved onto the first project.I started writing the code by the right EF work flows, first the Console output project which where you can Create a post,Create a comment,Create a user(Menu 8),Edit and Delete.
 
-# -DataAnnotations
+# DataAnnotations
 **● DBContext Class**
 
 The Data-Base Context class is connecting to SQL via the OnConfiguring method which contains a DbContextOptionsBuilder object where I can connect into the Data-Base
@@ -16,11 +16,9 @@ The Posts Class is now being writing and I am using here* DataAnnotations method
 After giving each column its type I open up NuGet PMC and add-migration,update-database.
 
 ![DataAnnotation](https://user-images.githubusercontent.com/80118008/129145704-fb56d844-1d56-463a-a9d7-128f35469433.PNG)
+-----------------------------------------------------------------------------------------
 
-
-
-
-# -FluentAPI
+******FluentAPI******
 **● Fluent Class's**
 
 After using Data Annotations I created two new class's both with the same columns and values as in Posts and Comments class's only now I remove all [annotations].        
