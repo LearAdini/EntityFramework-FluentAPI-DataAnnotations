@@ -1,32 +1,35 @@
 # EntityFramework - FluentAPI and DataAnnotations
-Two CRUD projects that I made as a class project.At first I started learning the fundemental logic of .NET Core and moved onto the first project.I started writing the code by the right EF work flows, first the Console output project which where you can Create a post,Create a comment,Create a user(Menu 8),Edit and Delete.
---------------------------------------------------------------
-# DataAnnotations
 
+Two CRUD projects that I made as a class project.At first I started learning the fundemental logic of .NET Core and moved onto the first project.I started writing the code by the right EF work flows, first the Console output project which where you can Create a post,Create a comment,Create a user(Menu 8),Edit and Delete.
+
+# DataAnnotations
 # .DBContext Class
+
 The Data-Base Context class is connecting to SQL via the OnConfiguring method which contains a DbContextOptionsBuilder object where I can connect into the Data-Base
  objectName.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=Data-Base;Trusted_Connection=True;MultipleActiveResultSets=True;");
  ![DataAnnotationContext](https://user-images.githubusercontent.com/80118008/129145644-5800eeb2-d8aa-4334-9cc1-bd0c9fb9dd5b.PNG)
---------------------------------------------------------------
+
 # .The Class's
+
 The Posts Class is now being writing and I am using here* DataAnnotations method so for example Post_Id will be the PrimaryKey in the Table so I will use [Key] one line above.
 After giving each column its type I open up NuGet PMC and add-migration,update-database.
 ![DataAnnotation](https://user-images.githubusercontent.com/80118008/129145704-fb56d844-1d56-463a-a9d7-128f35469433.PNG)
 --------------------------------------------------------------
 # FluentAPI
-
 # .Fluent Class's
+
 After using Data Annotations I created two new class's both with the same columns and values as in Posts and Comments class's only now I remove all [annotations].
 Now I can create a new Class called FluentPostConfig which will inherit from IEntityTypeConfiguration interface using .Metadata.Builders
 And now I use the Configure method which contains a generic EntityTypeBuilder object and now I can start using the Fluent code,for example like before I want Post_Id to be my PK so I can write now objectName.HasKey(p => p.Post_Id);
 ![fluentAPI](https://user-images.githubusercontent.com/80118008/129149864-727efbbc-db4d-49f5-8dde-4750aec7f814.PNG)
 * the lambada expression will indicate that Post_Id column is the PrimaryKey of the table.
---------------------------------------------------------------
+
 # .DBContext Class
+
 The Data-Base Context class uses the same DataBase Set properties only now I wont be using the OnConfiguring method I will use the OnModelCreating method which contains a ModelBuilder object which will apply configurations to the Data-Base so in the code I am using the FluentConfig class's that I made before because I want to stay as orginaized as I can.
 ![fluentAPIContext](https://user-images.githubusercontent.com/80118008/129150720-41aaeedc-719d-4fb8-9f1e-e1bd9215be26.PNG)
 --------------------------------------------------------------
---------------------------------------------------------------
+
 #1 First Project - Console CRUD
 
 ![0](https://user-images.githubusercontent.com/80118008/129146013-41210369-a0ae-4afa-ab35-e5b466d214be.PNG)
@@ -57,7 +60,7 @@ The Data-Base Context class uses the same DataBase Set properties only now I won
 --------------------------------------------------------------
 ![22](https://user-images.githubusercontent.com/80118008/129146036-c97dac7a-ac7f-4ff3-9784-16dbb4b21c40.PNG)
 
-#2 Second Project - WinForms CRUD (no delete option)
+# 2 Second Project - WinForms CRUD (no delete option)
 
 ![1](https://user-images.githubusercontent.com/80118008/129148300-8ff56f26-d417-47ab-b41b-932a0e24ed65.PNG)
 --------------------------------------------------------------
