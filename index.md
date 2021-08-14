@@ -38,6 +38,8 @@ The Data-Base Context class uses the same DataBase Set properties only now I won
 
 # Second Project - WinForms CRUD (no delete option yet)
 
+![0](https://user-images.githubusercontent.com/80118008/129446849-17f4b050-b703-4576-92a5-59eaec44c745.PNG)
+
 ![1](https://user-images.githubusercontent.com/80118008/129155592-6a67e2d9-8ff4-4652-bac0-2619f473ee00.PNG)
 
 ![2](https://user-images.githubusercontent.com/80118008/129155598-c8baad55-53cf-496f-8bf4-ff1a06eb16c1.PNG)
