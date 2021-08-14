@@ -1,6 +1,7 @@
-# EntityFramework - FluentAPI and DataAnnotations
+# Description
 
-I documented here my two CRUD projects that I made as a class project. At first I learned the fundemental logic of .NET Core and moved onto the first project.I started writing the code by the right EF work flows, first the Console output project which where you can Create a post,Create a comment,Create a user(Menu 8),View,Edit and Delete.and the second project can Create,View and edit columns as a WinForm GUI.
+I have documented here my two CRUD projects that I made as a class project. At first I learned the fundemental logic of .NET Core and EntityFramework work flows.
+the first project,A Console output project which where you can Create a post,Create a comment,Create a user(Menu 8),View,Edit and Delete.and the second project can Create,View and edit columns as a WinForm GUI.
 
 # DataAnnotations
 **●DBContext Class**
