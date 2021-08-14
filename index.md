@@ -12,7 +12,7 @@ The Data-Base Context class is connecting to SQL via the OnConfiguring method wh
 ![DataAnnotationContext](https://user-images.githubusercontent.com/80118008/129166374-86b680d9-21c0-491a-800e-a99f6d466dae.PNG)
 
 
-**●The Class's**
+**●The Classes**
 
 The Posts Class is now being written and I am using here* DataAnnotations method so for example Post_Id will be the PrimaryKey in the Table so I will use [Key] one line above.
 After giving each column its type I open up NuGet PMC and add-migration,update-database.
@@ -20,7 +20,7 @@ After giving each column its type I open up NuGet PMC and add-migration,update-d
 ![DataAnnotation](https://user-images.githubusercontent.com/80118008/129145704-fb56d844-1d56-463a-a9d7-128f35469433.PNG)
 
 # FluentAPI 
-**●Fluent Class's**
+**●Fluent Classes**
 
 After using Data Annotations I created two new class's both with the same columns and values as in Posts and Comments class's only now I remove all [annotations].        
 The new Class called FluentPostConfig will inherit from IEntityTypeConfiguration interface using .Metadata.Builders
