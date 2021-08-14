@@ -36,7 +36,7 @@ The Data-Base Context class uses the same DataBase Set properties only now I won
 ![FAPICONTEXT](https://user-images.githubusercontent.com/80118008/129166862-0bccc0bb-502c-44c8-a048-20bca182b013.PNG)
 
 
-# Second Project - WinForms CRUD (no delete option yet)
+# Second Project - WinForms CRUD
 
 ![0](https://user-images.githubusercontent.com/80118008/129446849-17f4b050-b703-4576-92a5-59eaec44c745.PNG)
 
