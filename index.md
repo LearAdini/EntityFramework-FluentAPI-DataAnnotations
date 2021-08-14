@@ -22,7 +22,7 @@ After giving each column its type I open up NuGet PMC and add-migration,update-d
 # FluentAPI 
 **●Fluent Classes**
 
-After using Data Annotations I created two new class's both with the same columns and values as in Posts and Comments class's only now I remove all [annotations].        
+After using Data Annotations I created two new classes both with the same columns and values as in Posts and Comments Class, only now I remove all [annotations].        
 The new Class called FluentPostConfig will inherit from IEntityTypeConfiguration interface using .Metadata.Builders
 And now I use the Configure method which contains a generic EntityTypeBuilder object and now I can start using the Fluent code,for example like before I want Post_Id to be my PK so I can write now objectName.HasKey(p => p.Post_Id);
 
@@ -31,7 +31,7 @@ And now I use the Configure method which contains a generic EntityTypeBuilder ob
 
 **●DBContext Class**
 
-The Data-Base Context class uses the same DataBase Set properties only now I wont be using the OnConfiguring method I will use the OnModelCreating method which contains a ModelBuilder object which will apply configurations to the Data-Base so in the code I am using the FluentConfig class's that I made before because I want to stay as orginaized as I can.
+The Data-Base Context class uses the same DataBase Set properties only now I wont be using the OnConfiguring method I will use the OnModelCreating method which contains a ModelBuilder object which will apply configurations to the Data-Base so in the code I am using the FluentConfig classes that I made before because I want to stay as orginaized as I can.
 
 ![FAPICONTEXT](https://user-images.githubusercontent.com/80118008/129166862-0bccc0bb-502c-44c8-a048-20bca182b013.PNG)
 
