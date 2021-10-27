@@ -3,13 +3,6 @@
 I document here my two CRUD projects that I made as a class project. At first I learned the fundemental logic of .NET Core and moved onto the first project.I started writing the code by the right EF work flows, first the Console output project which where you can Create a post,Create a comment,Create a user(Menu 8),View,Edit and Delete.and the second project can Create,View and edit columns as a WinForm GUI.
 
 # DataAnnotations
-**● DBContext Class**
-
-The Data-Base Context class is connecting to SQL via the OnConfiguring method which contains a DbContextOptionsBuilder object where I can connect into the Data-Base                        
- objectName.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=Data-Base;Trusted_Connection=True;MultipleActiveResultSets=True;");
- 
-![DataAnnotationContext](https://user-images.githubusercontent.com/80118008/129166374-86b680d9-21c0-491a-800e-a99f6d466dae.PNG)
-
 
 **● The Class's**
 
@@ -29,6 +22,10 @@ And now I use the Configure method which contains a generic EntityTypeBuilder ob
 *the lambada expression will indicate that the Post_Id column is the PrimaryKey of the table.*
 
 **● DBContext Class**
+The Data-Base Context class is connecting to SQL via the OnConfiguring method which contains a DbContextOptionsBuilder object where I can connect into the Data-Base                        
+ objectName.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=Data-Base;Trusted_Connection=True;MultipleActiveResultSets=True;");
+ 
+![DataAnnotationContext](https://user-images.githubusercontent.com/80118008/129166374-86b680d9-21c0-491a-800e-a99f6d466dae.PNG)
 
 The Data-Base Context class uses the same DataBase Set properties only now I wont be using the OnConfiguring method I will use the OnModelCreating method which contains a ModelBuilder object which will apply configurations to the Data-Base so in the code I am using the FluentConfig class's that I made before because I want to stay as orginaized as I can.
 
